@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCake</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    
+    <div class="pop-up">
+        <h2 class="pop-up-title">leave your details so that we can contact you</h2>
+        <div class="form">
+            <div class="form-element">
+                <label for="email" class="pop-up-text">Your email address</label>
+                <input type="text" id="email" class="input">
+            </div>
+            <span class="or">OR</span>
+            <div class="form-element">
+                <label for="number" class="pop-up-text">Your phone number</label>
+                <input type="number" id="number" class="input">
+            </div>
+        </div>
+        <button class="pop-up-btn reset-btn button">Send</button>
+    </div>
+
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-img"></div>
+                <p class="logo-title">MyCake</p>
+            </div>
+            <div class="menu reset-list" id="menu">
+                <a href="#" class="menu-link">Main</a>
+                <a href="#" class="menu-link">Products</a>
+                <a href="#" class="menu-link">About us</a>
+                <a href="#" class="menu-link">Contacts</a>
+            </div>
+            <div class="menu-toggle" id="trigger">
+                <span class="menu-toggle-item"></span>
+                <span class="menu-toggle-item"></span>
+                <span class="menu-toggle-item"></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="general">
+            <div class="container general-container">
+                <div class="left-side">
+                    <div class="left-side-item">
+                        <h3 class="left-side-title">Our products are checked</h3>
+                        <p class="left-side-text">All our products undergo strict certification and selection before being
+                            delivered</p>
+                    </div>
+                    <div class="left-side-item">
+                        <h3 class="left-side-title">We love and cherish our customers!</h3>
+                        <p class="left-side-text">We take an individual approach to working with each customer. You will be
+                            allocated a personal manager</p>
+                    </div>
+                    <div class="left-side-item">
+                        <h3 class="left-side-title letter">free shipping!</h3>
+                        <p class="left-side-text center">Order our products right now and gety free home delivery</p>
+                        <button class="left-side-btn reset-btn button contact">Contact us</button>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <h2 class="right-side-title">Delicious confectionery products</h2>
+                    <img class="cake-img" src="assets/images/Cake.png" alt="Cake image">
+                    <p class="right-side-text">Our goal is to produce the highest quality and delicious products for you.</p>
+                </div>
+            </div>
+        </section>
+        <section class="aboutUs">
+            <div class="container">
+                <h3 class="aboutUs-title main-title">About Us</h3>
+                <div class="aboutUs-wrapper">
+                    <div class="about-our">
+                        <h3 class="about-our-title">About our company</h3>
+                        <p class="about-our-text">Our company has been on the market for more than 5 years and is actively
+                            developing. Every week we serve dozens of satisfied and happy customers.</p>
+                    </div>
+                    <div class="our-progress">
+                        <h3 class="our-progress-title">Our progress</h3>
+                        <div class="progress-bar">
+                            <div class="progress-flex">
+                                <p class="progress-bar-text">Firm development before expansion</p>
+                                <span class="state">83%</span>
+                            </div>
+                            <progress value="83" max="100" class="progress"></progress>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-flex">
+                                <p class="progress-bar-text">Approaching the expected results</p>
+                                <span class="state">64%</span>
+                            </div>
+                            <progress value="64" max="100" class="progress"></progress>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-flex">
+                                <p class="progress-bar-text">Satisfaction of our customers</p>
+                                <span class="state">92%</span>
+                            </div>
+                            <progress value="92" max="100" class="progress"></progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container contacts-container">
+                <h2 class="main-title">Contacts</h2>
+                <div class="contacts-wrapper">
+                    <div class="contacts-left-side">
+                        <h3 class="contacts-title">You can always<br> contact us</h3>
+                        <a href="mail:mycake@google.com" class="contacts-mail"><span class="uppercase"> Our mail:
+                            </span>mycake@google.com</a>
+                        <a href="tel:+8976543210" class="contacts-tel"><span class="uppercase">Our phone: </span>+8976543210</a>
+                    </div>
+                    <div class="contacts-right-side">
+                        <p class="contacts-text">Leave us your details so that we can contact you</p>
+                        <button class="contacts-btn reset-btn button contact">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-contacts">
+                <a class="footer-mail" href="mail:mycake@google.com"><span class="uppercase">Our mail:</span>
+                    mycake@google.com</a>
+                <a class="footer-tel" href="tel:+8976543210"><span class="uppercase">Our phone:</span> +8976543210</a>
+            </div>
+            <div class="footer-menu">
+                <a href="#" class="footer-menu-link">Main</a>
+                <a href="#" class="footer-menu-link">About Us</a>
+                <a href="#" class="footer-menu-link">Products</a>
+                <a href="#" class="footer-menu-link">Contacts</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
